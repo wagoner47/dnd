@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools >= 65.5"]
+
+[project]
+requires-python = ">= 3.10.11"
+dynamic = ["dependencies"]
+name = "dnd"
+version = "0.0.1"
+authors = [
+    {name = "Erika Hartman", email = "elwagoner47@gmail.com"}
+]
+license = {text = "GPL-3.0-or-later"}
+classifiers = [
+    "License :: OSI Approve :: GPLGNU General Public License v3 or later (GPLv3+)",
+]
+
+[tools.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}

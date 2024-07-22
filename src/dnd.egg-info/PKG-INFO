@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: dnd
+Version: 0.0.1
+Author-email: Erika Hartman <elwagoner47@gmail.com>
+License: GPL-3.0-or-later
+Classifier: License :: OSI Approve :: GPLGNU General Public License v3 or later (GPLv3+)
+Requires-Python: >=3.10.11
